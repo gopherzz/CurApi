@@ -1,6 +1,6 @@
 # CurApi
 Simple api for converting currencies without authorization
-Exchange Rates parsed from (www.xe.com)[https://www.xe.com/] using (goquery)[https://github.com/PuerkitoBio/goquery]
+Exchange Rates parsed from [www.xe.com](https://www.xe.com/) using [goquery](https://github.com/PuerkitoBio/goquery)
 
 ## Usage
 ```
