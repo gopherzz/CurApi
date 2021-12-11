@@ -2,7 +2,15 @@
 Simple api for converting currencies without authorization
 Exchange Rates parsed from [www.xe.com](https://www.xe.com/) using [goquery](https://github.com/PuerkitoBio/goquery)
 
+## Build
+```bash
+go build -o build/curapi-server cmd/main.go
+```
+
 ## Usage
+```bash
+./build/curapi --port <PORT [default=8080]>
+```
 ```
 /convert?
   from=<FROM CURRENCY CODE>
