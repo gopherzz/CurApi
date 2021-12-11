@@ -11,7 +11,7 @@ go build -o build/curapi-server cmd/main.go
 ```bash
 ./build/curapi --port <PORT [default=8080]>
 ```
-## Reference
+## Api Reference
 ```
 /convert?
   from=<FROM CURRENCY CODE>
