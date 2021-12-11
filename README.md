@@ -4,7 +4,10 @@ Exchange Rates parsed from (www.xe.com)[https://www.xe.com/] using (goquery)[htt
 
 ## Usage
 ```
-http://localhost:8080/convert?from=<FROM CURRENCY CODE>&to=<CONVERT TO CURRENCIES COMMA SEPARATED>&amount=<AMOUNT OF FROM CURRENCY>
+/convert?
+  from=<FROM CURRENCY CODE>
+ &to=<CONVERT TO CURRENCIES COMMA SEPARATED>
+ &amount=<AMOUNT OF FROM CURRENCY>
 ```
 - from string (currency code)
 - to []string (currencies codes comma separated)
